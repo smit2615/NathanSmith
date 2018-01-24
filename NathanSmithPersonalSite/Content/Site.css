@@ -1,0 +1,137 @@
+﻿body {
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.index-body {
+    background-image: url(https://free-images.com/or/4959/landscape_sunset_blue_sunrise.jpg);
+}
+
+/*navbar changes*/
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #89b6ff;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 5px !important;
+    padding-bottom: 0 !important;
+    height: 30px;
+}
+
+.navbar {
+    min-height: 30px !important;
+}
+
+.navbar-inverse .navbar-nav > li > .btn-info {
+    background-color: #89b6ff;
+    border-color: #89b6ff;
+    color: black;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-top: 3%;
+    padding-left: 15px;
+    padding-right: 120px;
+    padding-bottom: 40px;
+    background-color: transparent;
+}
+
+/*footer changes*/
+.footer {
+    border-top: solid dimgrey 2px;
+    color: dimgrey;
+}
+
+.contact-info {
+    padding: 10px;
+    background-color: #89b6ff;
+    color: white;
+}
+
+/*The home page of the website*/
+.Index {
+    padding-top: 2%;
+}
+
+.welcomeMessage h1 {
+    font-size: 10em;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.introduction {
+    text-align: center;
+    color: black;
+    background-color: #89b6ff;
+    border: solid 1px black;
+    box-shadow: -3px 3px 8px black;
+}
+
+.welcomeImage img {
+    align-content: center;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    box-shadow: -5px 5px 8px black; 
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.sticky-container {
+    padding: 0px;
+    margin-right: 40px;
+    position: fixed;
+    right: -130px;
+    top: 50px;
+    width: 210px;
+    z-index: 1100;
+}
+
+.sticky li {
+    list-style-type: none;
+    background-color: transparent;
+    color: #efefef;
+    height: 80px;
+    padding-top: 5px;
+    margin: 0px 0px 1px 0px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.sticky li:hover {
+    margin-left: -10px;
+}
+
+.sticky li img:hover {
+    background-color: #89b6ff
+}
+
+.sticky li img {
+    height: 60px;
+    width: 60px;
+    margin: 10px 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.resume {
+    height: 900px;
+    width: 100%;
+}
+
+/**
+    Media Queries
+*/
+
