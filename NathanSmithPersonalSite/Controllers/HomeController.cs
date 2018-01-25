@@ -20,10 +20,16 @@ namespace NathanSmithPersonalSite.Controllers
 
         public ActionResult Resume()
         {
+            throw new Exception();
             return View();
         }
 
         public ActionResult Error404()
+        {
+            return View();
+        }
+
+        public ActionResult Error500()
         {
             return View();
         }
