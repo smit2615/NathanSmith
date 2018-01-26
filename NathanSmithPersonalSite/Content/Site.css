@@ -153,6 +153,12 @@ textarea {
     color: #89b6ff;
 }
 
+    .btn-info:focus {
+        background-color: #89b6ff !important;
+        border-color: #89b6ff !important;
+        outline: none !important;
+    }
+
 /****************************** Media Queries ***********************************/
 
 /*collapsable navbar will overlap social media bar*/
