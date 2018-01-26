@@ -10,9 +10,9 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li class="active link">@Html.ActionLink("Home", "Index", "Home", null, new { })</li>
-                <li class="link">@Html.ActionLink("About Me", "AboutMe", "Home", null, new { })</li>
-                <li class="link">@Html.ActionLink("Resume", "Resume", "Home", null, new { })</li>
+                <li class="link" id="Home">@Html.ActionLink("Home", "Index", "Home", null, new { })</li>
+                <li class="link" id="AboutMe">@Html.ActionLink("About Me", "AboutMe", "Home", null, new { })</li>
+                <li class="link" id="Resume">@Html.ActionLink("Resume", "Resume", "Home", null, new { })</li>
                 <li><a href="mailto:ns23@umail.iu.edu" class="btn btn-info">Email Me</a></li>
                 <li id="output"></li>
             </ul>
@@ -21,12 +21,14 @@
 </nav>
 
 <script>
-/*$(document).ready(function () {
-    $(".link").click(function () {
-        $('.active').removeClass('active');
-        $(this).addClass('active');
-    })
-})*/
-    var pathname = window.url.pathname;
-    document.getElementById("output").innerHTML = pathname;
+    $(document).ready(function () {
+        $('ul.nav').children().removeClass('active');
+        var pathname = window.location.pathname.substring(1);
+        var identity;
+        if (pathname.length === 0)
+            identity = '#Home';
+        else
+            identity = '#' + pathname;
+        $(identity).addClass('active');
+    });
 </script>
