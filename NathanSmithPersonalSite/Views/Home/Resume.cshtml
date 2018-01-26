@@ -9,7 +9,8 @@
     <i>**It looks like you're viewing on a small device... click the button to view my resume!</i>
 </div>
 <div>
-    <button class="btn btn-info" href="~/Resources/Nathan Smith's Resume.pdf"><span class="glyphicon glyphicon-download"></span> Download</button>
+    <button onClick = "ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'Nathan Smith Resume.pdf', eventValue: 1});" 
+            class="btn btn-info" href="~/Resources/Nathan Smith's Resume.pdf"><span class="glyphicon glyphicon-download"></span> Download</button>
 </div>
 <div class="container-fluid">
     <object class="resume hidden-xs" data="~/Resources/Nathan Smith's Resume.pdf"/>
