@@ -110,12 +110,12 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\GithubButton.png" />
-    <Content Include="Content\IMG_4361.PNG" />
-    <Content Include="Content\LinkedInButton.png" />
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Resources\Error404.JPG" />
+    <Content Include="Resources\GithubButton.png" />
+    <Content Include="Resources\LinkedInButton.png" />
+    <Content Include="Resources\Me.PNG" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -138,8 +138,8 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <Content Include="Content\Nathan Smith%27s Resume.pdf" />
     <None Include="Properties\PublishProfiles\nathansmith - Web Deploy.pubxml" />
+    <Content Include="Resources\Nathan Smith%27s Resume.pdf" />
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
     <Content Include="Scripts\jquery-3.0.0.min.js" />

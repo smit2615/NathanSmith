@@ -1,10 +1,17 @@
 ﻿
 @{
     ViewBag.Title = "Resume";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h1>My Resume</h1>
+<div class="row visible-xs-block" id="sm-device-info">
+    <i>**It looks like you're viewing on a small device... click the button to view my resume!</i>
+</div>
+<div>
+    <button class="btn btn-info" href="~/Resources/Nathan Smith's Resume.pdf"><span class="glyphicon glyphicon-download"></span> Download</button>
+</div>
 <div class="container-fluid">
-    <object class="resume" data="~/Content/Nathan Smith's Resume.pdf"/>
+    <object class="resume hidden-xs" data="~/Resources/Nathan Smith's Resume.pdf"/>
 </div>
 

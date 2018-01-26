@@ -9,10 +9,19 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Error500</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 </head>
 <body>
     <div> 
-        This is my fault... but also yours
+        <h1>Server Error</h1>
+        <p>This is my fault... but also yours</p>
+        <h2>Head back to the site</h2>
+        <div class="list-group list-unstyled">
+            @Html.ActionLink("Home", "Index", "Home", null, new { @class = "list-group-item" })
+            @Html.ActionLink("About Me", "AboutMe", "Home", null, new { @class = "list-group-item" })
+            @Html.ActionLink("Resume", "Resume", "Home", null, new { @class = "list-group-item" })
+        </div>
     </div>
 </body>
 </html>
