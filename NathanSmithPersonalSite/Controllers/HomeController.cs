@@ -20,7 +20,6 @@ namespace NathanSmithPersonalSite.Controllers
 
         public ActionResult Resume()
         {
-            throw new Exception();
             return View();
         }
 

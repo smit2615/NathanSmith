@@ -18,13 +18,13 @@ namespace NathanSmithPersonalSite.App_Start
 
             bundles.Add(new StyleBundle(
                 "~/bundles/bootstrapcss",
-                "//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css")
+                "//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
                 .Include("~/Content/bootstrap.css")
             );
 
             bundles.Add(new ScriptBundle(
                 "~/bundles/bootstrapjs",
-                "//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js")
+                "//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
                 .Include("~/Scripts/bootstrap.js")
             );
         }

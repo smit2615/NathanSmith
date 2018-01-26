@@ -14,16 +14,19 @@
                 <li class="link">@Html.ActionLink("About Me", "AboutMe", "Home", null, new { })</li>
                 <li class="link">@Html.ActionLink("Resume", "Resume", "Home", null, new { })</li>
                 <li><a href="mailto:ns23@umail.iu.edu" class="btn btn-info">Email Me</a></li>
+                <li id="output"></li>
             </ul>
         </div>
     </div>
 </nav>
 
 <script>
-$(document).ready(function () {
+/*$(document).ready(function () {
     $(".link").click(function () {
         $('.active').removeClass('active');
         $(this).addClass('active');
     })
-})
+})*/
+    var pathname = window.url.pathname;
+    document.getElementById("output").innerHTML = pathname;
 </script>

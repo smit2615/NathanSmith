@@ -39,6 +39,11 @@
     background-color: transparent;
 }
 
+.container {
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
 /*footer changes*/
 .footer {
     border-top: solid dimgrey 2px;

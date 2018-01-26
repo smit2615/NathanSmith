@@ -115,7 +115,7 @@
     <Content Include="Content\LinkedInButton.png" />
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
-    <Content Include="Resources\Error404 .JPG" />
+    <Content Include="Resources\Error404.JPG" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />

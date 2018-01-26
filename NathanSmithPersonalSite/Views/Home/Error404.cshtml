@@ -18,7 +18,15 @@
         <p>I can't believe you've done this...</p>
 
         <h2>I've prepared some charts to help you out:</h2>
+        <hr/>
         <img class="img-responsive" src="~/Resources/Error404.JPG" />
+        <hr />
+        <h2>Fix your mistake here</h2>
+        <div class="list-group list-unstyled">
+            @Html.ActionLink("Home", "Index", "Home", null, new { @class = "list-group-item" })
+            @Html.ActionLink("About Me", "AboutMe", "Home", null, new { @class = "list-group-item" })
+            @Html.ActionLink("Resume", "Resume", "Home", null, new { @class = "list-group-item" })
+        </div>
     </div>
 </body>
 </html>
