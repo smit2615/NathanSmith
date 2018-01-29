@@ -17,8 +17,9 @@
 
 <script>
     $('.btn-info').click(function () {
+        ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'Nathan Smith Resume.pdf', eventValue: 1 });
         $(this).blur();
     });
-    onClick = "ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'Nathan Smith Resume.pdf', eventValue: 1});"
+   
 </script>
 
