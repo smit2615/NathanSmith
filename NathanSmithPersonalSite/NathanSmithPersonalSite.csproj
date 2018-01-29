@@ -115,7 +115,7 @@
     <Content Include="Global.asax" />
     <Content Include="Resources\Error404.JPG" />
     <Content Include="Resources\GithubButton.png" />
-    <Content Include="Resources\LinkedInButton.png" />
+    <Content Include="Resources\LInkedInButton.png" />
     <Content Include="Resources\Me.PNG" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
