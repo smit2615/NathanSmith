@@ -9,7 +9,8 @@
     <i>**It looks like you're viewing on a small device... click the button to view my resume!</i>
 </div>
 <div>
-    <a class="btn btn-info" href="~/Resources/Resume.pdf"><span class="glyphicon glyphicon-download"></span> Download</a>
+    <a class="btn btn-info" href="~/Resources/Resume.pdf" onclick="ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'Nathan Smith Resume.pdf', eventValue: 1 });">
+    <span class="glyphicon glyphicon-download"></span> Download</a>
 </div>
 <div class="container-fluid">
     <object class="resume hidden-xs" data="~/Resources/Resume.pdf"/>
@@ -17,7 +18,6 @@
 
 <script>
     $('.btn-info').click(function () {
-        ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'Nathan Smith Resume.pdf', eventValue: 1 });
         $(this).blur();
     });
    
