@@ -113,6 +113,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Content\Site.js" />
     <Content Include="Global.asax" />
+    <Content Include="Resources\Baseball.jpg" />
     <Content Include="Resources\Error404.JPG" />
     <Content Include="Resources\GithubButton.png" />
     <Content Include="Resources\LInkedInButton.png" />

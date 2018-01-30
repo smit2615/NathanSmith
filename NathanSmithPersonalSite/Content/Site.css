@@ -37,6 +37,7 @@
     padding-right: 120px;
     padding-bottom: 40px;
     background-color: transparent;
+    z-index: 0;
 }
 
 .container {
@@ -48,7 +49,7 @@
 .footer {
     border-top: solid dimgrey 2px;
     color: dimgrey;
-    z-index: 0;
+    z-index: 1;
 }
 
 .contact-info {
@@ -100,7 +101,7 @@ textarea {
     right: -130px;
     top: 50px;
     width: 210px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .sticky-container-low {
