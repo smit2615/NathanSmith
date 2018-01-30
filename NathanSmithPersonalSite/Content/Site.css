@@ -52,7 +52,8 @@
 }
 
 .contact-info {
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
     background-color: #89b6ff;
     color: white;
 }
@@ -174,24 +175,28 @@ textarea {
 
 @media screen and (max-width: 600px) {
     .sticky-container {
-        top: 85%;
+        top: 87%;
         width: 200px;
         right: -35px;
         height: 0;
     }
-}
 
-@media screen and (max-width: 600px) {
     .sticky li:hover {
         margin-left: 0px;
     }
-}
 
-@media screen and (max-width: 600px) {
     .sticky li {
         height: 0px;
         width: 80px;
         float: left;
+    }
+
+    .sticky li img:hover {
+        background-color: white;
+    }
+
+    .body-content {
+        padding-right: 15px;
     }
 }
 
