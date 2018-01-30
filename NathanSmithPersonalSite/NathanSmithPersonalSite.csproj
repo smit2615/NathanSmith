@@ -194,6 +194,7 @@
     <Content Include="Views\Home\Resume.cshtml" />
     <Content Include="Views\Home\Error404.cshtml" />
     <Content Include="Views\Home\Error500.cshtml" />
+    <Content Include="Views\Home\Projects.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

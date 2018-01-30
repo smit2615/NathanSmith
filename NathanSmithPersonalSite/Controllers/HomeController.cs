@@ -23,6 +23,11 @@ namespace NathanSmithPersonalSite.Controllers
             return View();
         }
 
+        public ActionResult Projects()
+        {
+            return View();
+        }
+
         public ActionResult Error404()
         {
             return View();
