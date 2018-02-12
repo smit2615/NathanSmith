@@ -1,0 +1,13 @@
+﻿/*footer changes*/
+.footer {
+    border-top: solid dimgrey 2px;
+    color: dimgrey;
+    z-index: 1;
+}
+
+.contact-info {
+    padding-top: 10px;
+    padding-left: 25px;
+    background-color: #89b6ff;
+    color: white;
+}

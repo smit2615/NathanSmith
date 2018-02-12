@@ -1,4 +1,5 @@
-﻿<nav class="navbar navbar-inverse navbar-fixed-top">
+﻿<link rel="stylesheet" href="~/Content/Navbar.css" />
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -10,15 +11,14 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li class="link" id="Home">@Html.ActionLink("Home", "Index", "Home", null, new { })</li>
-                <li class="link" id="AboutMe">@Html.ActionLink("About Me", "AboutMe", "Home", null, new { })</li>
-                <li class="link" id="Resume">@Html.ActionLink("Resume", "Resume", "Home", null, new { })</li>
-                <li class="link" id="Projects">@Html.ActionLink("Projects", "Projects", "Home", null, new { })</li>
+                <li id="Home" class="link">@Html.ActionLink("Home", "Index", "Home", null, new { })</li>
+                <li id="AboutMe" class="link">@Html.ActionLink("About Me", "AboutMe", "Home", null, new { })</li>
+                <li id="Resume" class="link">@Html.ActionLink("Resume", "Resume", "Home", null, new { })</li>
+                <li id="Projects" class="link">@Html.ActionLink("Projects", "Projects", "Home", null, new { })</li>
                 <li><a href="mailto:ns23@umail.iu.edu" class="btn btn-info">Email Me</a></li>
-                <li id="output"></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<script src="~/Content/Site.js"></script>
+<script src="~/Scripts/Navbar.js"></script>

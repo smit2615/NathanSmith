@@ -1,0 +1,41 @@
+﻿.sticky-container {
+    padding: 0px;
+    margin-right: 40px;
+    position: fixed;
+    right: -130px;
+    top: 50px;
+    width: 210px;
+    z-index: 2;
+}
+
+.sticky-container-low {
+    top: 230px;
+}
+
+.sticky li {
+    list-style-type: none;
+    background-color: transparent;
+    color: #efefef;
+    height: 80px;
+    padding-top: 5px;
+    margin: 0px 0px 1px 0px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+    .sticky li:hover {
+        margin-left: -10px;
+    }
+
+    .sticky li img:hover {
+        background-color: #89b6ff
+    }
+
+    .sticky li img {
+        height: 60px;
+        width: 60px;
+        margin: 10px 10px;
+        border-radius: 50px;
+    }

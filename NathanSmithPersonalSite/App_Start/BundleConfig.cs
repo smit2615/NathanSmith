@@ -27,6 +27,27 @@ namespace NathanSmithPersonalSite.App_Start
                 "//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
                 .Include("~/Scripts/bootstrap.js")
             );
+
+            bundles.Add(new StyleBundle(
+                "~/bundles/sitecss")
+                .Include(new string[] { "~/Content/Footer.css",
+                            "~/Content/Index.css",
+                            "~/Content/Navbar.css",
+                            "~/Content/Resume.css",
+                            "~/Content/Sidebar.css",
+                            "~/Content/Site.css"
+                        }
+                )
+            );
+
+            bundles.Add(new ScriptBundle(
+                "~/bundles/sitejs")
+                .Include(new string[] { "~/Scripts/Navbar.js",
+                            "~/Scripts/Resume.js",
+                            "~/Scripts/Site.js"
+                        }
+                )
+            );
         }
     }
 }

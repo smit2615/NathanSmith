@@ -1,0 +1,28 @@
+﻿.resume {
+    margin-top: 2%;
+    height: 900px;
+    width: 100%;
+}
+
+#sm-device-info {
+    padding-left: 2%;
+    padding-bottom: 10px;
+}
+
+.btn-info {
+    background-color: #89b6ff;
+    border-color: #89b6ff;
+    color: black;
+}
+
+    .btn-info:hover {
+        background-color: white;
+        border-color: #89b6ff;
+        color: #89b6ff;
+    }
+
+    .btn-info:focus {
+        background-color: #89b6ff !important;
+        border-color: #89b6ff !important;
+        outline: none !important;
+    }
