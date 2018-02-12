@@ -9,10 +9,7 @@
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-top: 3%;
-    padding-left: 15px;
-    padding-right: 120px;
-    padding-bottom: 40px;
+    padding: 3%, 120px, 40px, 15px;
     background-color: transparent;
     z-index: 0;
 }
