@@ -25,3 +25,20 @@
     margin: auto;
     box-shadow: -5px 5px 8px black;
 }
+
+/*Welcome message is too wide for screen*/
+@media screen and (max-width: 670px) {
+    .welcome-message h1 {
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .welcome-message h1 {
+        font-size: 2em;
+    }
+
+    .Index {
+        padding-top: 7%;
+    }
+}

@@ -65,23 +65,6 @@ textarea {
     }
 }
 
-/*Welcome message is too wide for screen*/
-@media screen and (max-width: 670px) {
-    .welcomeMessage h1 {
-        font-size: 5em;
-    }
-}
-
-@media screen and (max-width: 376px) {
-    .welcomeMessage h1 {
-        font-size: 3em;
-    }
-
-    .Index {
-        padding-top: 7%;
-    }
-}
-
 /*Need more padding to the top and bottom of content*/
 @media screen and (max-width: 825px) {
     .container {
