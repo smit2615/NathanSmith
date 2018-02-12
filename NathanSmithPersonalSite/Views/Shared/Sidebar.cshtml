@@ -1,11 +1,10 @@
-﻿<link rel="stylesheet" href="~/Content/Sidebar.css" />
-<div class="sticky-container" id="social-media-bar">
+﻿<div class="sticky-container" id="social-media-bar">
     <ul class="sticky">
         <li>
-            <a href="https://www.linkedin.com/in/nathan-smith-bb35b813b/" target="_blank"><img src="~/Resources/LinkedInButton.png"></a>
+            <a href="https://www.linkedin.com/in/nathan-smith-bb35b813b/" target="_blank"><img class="@(ViewBag.Title == "Index" ? "img-index" : "")" src="~/Resources/LinkedInButton.png"></a>
         </li>
         <li>
-            <a href="https://github.com/smit2615" target="_blank"><img src="~/Resources/GithubButton.png"></a>
+            <a href="https://github.com/smit2615" target="_blank"><img class="@(ViewBag.Title == "Index" ? "img-index" : "")" src="~/Resources/GithubButton.png"></a>
         </li>
     </ul>
 </div>

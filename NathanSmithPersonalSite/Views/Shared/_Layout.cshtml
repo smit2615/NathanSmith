@@ -7,23 +7,32 @@
     <title>@ViewBag.Title</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/Navbar.css" />
+    <link rel="stylesheet" href="~/Content/Index.css" />
+    <link rel="stylesheet" href="~/Content/Sidebar.css" />
     <link rel="stylesheet" href="~/Content/Site.css" />
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
 <body>
-    
+
     @Html.Partial("Navbar")
     @if (ViewBag.Title != "Index")
     {
-        Html.Partial("Footer");
+        @Html.Partial("Footer");
+        <div class="container body-content">
+            @Html.Partial("Sidebar")
+            @RenderBody()
+        </div>
     }
-
-    <div class="container body-content">
-        @Html.Partial("Sidebar")
-        @RenderBody()
-    </div>
+    else
+    {
+        <div class="container-fluid index-body">
+            @Html.Partial("Sidebar")
+            @RenderBody()
+        </div>
+    }
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
